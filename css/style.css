@@ -1,3 +1,4 @@
+
 /* global */
 
 * {
@@ -5,21 +6,20 @@
     padding: 0;
 }
 
-/* header */
+/* navigation bar */
 
 .container {
     display: flex;
-    position: fixed;
     top: 0;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 100%;
     background-color: rgba(165, 32, 32);
+    width: 100%;
 }
 
 .nav-bar {
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: flex-end;
 }
 
@@ -27,10 +27,6 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-}
-
-.nav-bar ul li {
-    width: 8%;
 }
 
 .nav-bar ul li a {
@@ -43,7 +39,6 @@
 
 .nav-bar ul li a:hover {
     background-color: rgb(71, 71, 136);
-
 }
 
 /* about me */
@@ -51,12 +46,9 @@
 /* body */
 
 .about-me {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 69px;
-    padding-top: 310px;
-    padding-bottom: 320px;
+    text-align: center;
+    padding-top: 270px;
+    padding-bottom: 270px;
     background-color: rgb(48, 48, 48);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -75,13 +67,25 @@
     font-style: italic;
 }
 
+.button-to-projects {
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(71, 71, 136);
+    color: rgba(255, 255, 255, 0.856);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
 /* my projects */
 
 /*  body */
 
 .my-projects {
     background-color: rgb(71, 71, 136);
-    padding-top: 16%;
+    padding-top: 12%;
     padding-bottom: 5%;
     color: rgba(255, 255, 255, 0.856);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -113,9 +117,7 @@
 
 .my-projects .projects {
     display: flex;
-    width: 96%;
     margin-left: 2%;
-    margin-right: 2%;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
@@ -133,7 +135,7 @@
 .site-link {
     height: 350px;
     width: 400px;
-    margin-right: 30px;
+    padding-right: 30px;
 }
 
 .projects h1 {
@@ -152,6 +154,17 @@
     color: rgba(255, 255, 255, 0.856);
 }
 
+.button-to-contact {
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.856);
+    color: rgb(71, 71, 136);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
 /* contact me */
 
 /* body */
@@ -159,9 +172,11 @@
 .contact {
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
-    background-color: rgba(48, 48, 48);
+    padding-top: 250px;
     padding-bottom: 250px;
+    background-color: rgba(48, 48, 48);
     color: rgba(255, 255, 255, 0.856);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -169,7 +184,6 @@
 /* text */
 
 .contact h1 {
-    margin-top: 210px;
     font-size: 55px;
 }
 
@@ -177,6 +191,14 @@
     margin-top: 20px;
     font-size: 25px;
     font-style: italic;
+}
+
+.icon-link {
+    max-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .footer {
@@ -191,12 +213,63 @@
 
 /* mobile version */
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 480px) {
+    /* navigation bar */
+    .container {
+        max-width: 480px;
+    }
+    .nav-bar {
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-bar ul li a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 22px;
+    }
+    .nav-bar ul li a:hover {
+        background-color: rgb(71, 71, 136);
+    }
+    /* about me */
+    .about-me {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: rgb(48, 48, 48);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .button-to-projects {
+        display: none;
+    }
+    /* my projects - title */
+    .my-projects {
+        padding-top: 10%;
+    }
     .my-projects .heading h1 {
-        font-size: 45px;
-        margin-top: 55px;
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 110px;
+    }
+    /* my projects - projects displayed */
+    .site-link {
+        height: 250px;
+        width: 295px;
+        padding-right: 0px;
+    }
+    .projects h1 {
+    margin-right: 0px;
+    }
+    /* contact me */
+    .contact {
+        padding-top: 0px;
+        padding-bottom: 50px;
     }
     .contact h1 {
-        font-size: 40px;
+        padding-top: 50px;
+        font-size: 35px;
     }
 }
+
+
