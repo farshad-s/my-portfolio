@@ -1,0 +1,275 @@
+
+/* global */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar */
+
+.container {
+    display: flex;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(165, 32, 32);
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.856);
+    padding: 20px;
+}
+
+.nav-bar ul li a:hover {
+    background-color: rgb(71, 71, 136);
+}
+
+/* about me */
+
+/* body */
+
+.about-me {
+    text-align: center;
+    padding-top: 270px;
+    padding-bottom: 270px;
+    background-color: rgb(48, 48, 48);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* text */
+
+.about-me h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.about-me p {
+    font-size: 25px;
+    color: rgba(165, 32, 32);
+    font-style: italic;
+}
+
+.button-to-projects {
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(71, 71, 136);
+    color: rgba(255, 255, 255, 0.856);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* my projects */
+
+/*  body */
+
+.my-projects {
+    background-color: rgb(71, 71, 136);
+    padding-top: 12%;
+    padding-bottom: 5%;
+    color: rgba(255, 255, 255, 0.856);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* title */
+
+.my-projects .heading {
+    padding: 20px;
+    margin-top: -150px;
+    border-bottom: 2px solid white;
+}
+
+.my-projects .heading h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* projects displayed */
+
+.project-holder {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.my-projects .projects {
+    display: flex;
+    margin-left: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.project-title h1 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.projects img {
+    cursor: pointer;
+}
+
+.site-link {
+    height: 350px;
+    width: 400px;
+    padding-right: 30px;
+}
+
+.projects h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(184, 187, 187, 0.5);
+    padding: 25px;
+    margin-top: -4px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.button-to-contact {
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.856);
+    color: rgb(71, 71, 136);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* contact me */
+
+/* body */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-color: rgba(48, 48, 48);
+    color: rgba(255, 255, 255, 0.856);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* text */
+
+.contact h1 {
+    font-size: 55px;
+}
+
+.contact p {
+    margin-top: 20px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.icon-link {
+    max-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid rgba(165, 32, 32);
+    padding: 40px;
+    background-color: rgba(48, 48, 48);
+    color: rgba(255, 255, 255, 0.856);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* mobile version */
+
+@media screen and (max-width: 480px) {
+    /* navigation bar */
+    .container {
+        max-width: 480px;
+    }
+    .nav-bar {
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-bar ul li a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 22px;
+    }
+    .nav-bar ul li a:hover {
+        background-color: rgb(71, 71, 136);
+    }
+    /* about me */
+    .about-me {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: rgb(48, 48, 48);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .button-to-projects {
+        display: none;
+    }
+    /* my projects - title */
+    .my-projects {
+        padding-top: 10%;
+    }
+    .my-projects .heading h1 {
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 110px;
+    }
+    /* my projects - projects displayed */
+    .site-link {
+        height: 250px;
+        width: 295px;
+        padding-right: 0px;
+    }
+    .projects h1 {
+    margin-right: 0px;
+    }
+    /* contact me */
+    .contact {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .contact h1 {
+        padding-top: 50px;
+        font-size: 35px;
+    }
+}
+
+
