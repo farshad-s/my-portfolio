@@ -216,7 +216,7 @@
 @media screen and (max-width: 480px) {
     /* navigation bar */
     .container {
-        max-width: 480px;
+        max-width: 600px;
     }
     .nav-bar {
         width: 100%;
