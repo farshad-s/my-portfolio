@@ -213,10 +213,10 @@
 
 /* mobile version */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     /* navigation bar */
     .container {
-        max-width: 600px;
+        max-width: 480px;
     }
     .nav-bar {
         width: 100%;
