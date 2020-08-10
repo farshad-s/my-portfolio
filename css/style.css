@@ -227,7 +227,7 @@
         padding-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
-        font-size: 22px;
+        font-size: 20px;
     }
     .nav-bar ul li a:hover {
         background-color: rgb(71, 71, 136);
@@ -253,6 +253,9 @@
         margin-top: 110px;
     }
     /* my projects - projects displayed */
+    .my-projects .projects {
+        margin-left: 0px;
+    }
     .site-link {
         height: 250px;
         width: 295px;
@@ -269,6 +272,9 @@
     .contact h1 {
         padding-top: 50px;
         font-size: 35px;
+    }
+    .icon-link {
+        margin-top: 20px;
     }
 }
 
