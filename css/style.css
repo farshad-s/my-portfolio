@@ -117,10 +117,10 @@
 
 .my-projects .projects {
     display: flex;
-    margin-left: 2%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 50px;
+    width: 100%;
 }
 
 .project-title h1 {
@@ -128,25 +128,20 @@
     font-weight: 300;
 }
 
-.projects img {
-    cursor: pointer;
-}
-
 .site-link {
     height: 350px;
-    width: 400px;
-    padding-right: 30px;
+    max-width: 380px;
 }
 
 .projects h1 {
     display: flex;
     justify-content: center;
     background-color: rgba(184, 187, 187, 0.5);
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-top: -4px;
-    cursor: pointer;
-    margin-right: 30px;
     margin-bottom: 30px;
+    max-width: 380px;
 }
 
 .project-link {
@@ -258,12 +253,13 @@
     }
     .site-link {
         height: 250px;
-        min-width: 295px;
-        max-width: 295px;
+        min-width: 250px;
+        max-width: 250px;
         padding-right: 0px;
     }
     .projects h1 {
-    margin-right: 0px;
+        margin-right: 0px;
+        max-width: 250px;
     }
     /* contact me */
     .contact {
