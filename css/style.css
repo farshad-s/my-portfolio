@@ -13,7 +13,7 @@
     top: 0;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgba(165, 32, 32);
+    background-color: rgb(185, 50, 50);
     width: 100%;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .nav-bar ul li a:hover {
-    background-color: rgb(71, 71, 136);
+    background-color: rgb(103, 103, 196);
 }
 
 /* about me */
@@ -49,7 +49,7 @@
     text-align: center;
     padding-top: 270px;
     padding-bottom: 270px;
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(80, 80, 80);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -63,7 +63,7 @@
 
 .about-me p {
     font-size: 25px;
-    color: rgba(165, 32, 32);
+    color: rgba(185, 50, 50);
     font-style: italic;
 }
 
@@ -72,7 +72,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     margin-top: 50px;
-    background-color: rgb(71, 71, 136);
+    background-color: rgb(103, 103, 196);
     color: rgba(255, 255, 255, 0.856);
     outline: none;
     border: none;
@@ -84,7 +84,7 @@
 /*  body */
 
 .my-projects {
-    background-color: rgb(71, 71, 136);
+    background-color: rgb(103, 103, 196);
     padding-top: 12%;
     padding-bottom: 5%;
     color: rgba(255, 255, 255, 0.856);
@@ -154,7 +154,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     background-color: rgba(255, 255, 255, 0.856);
-    color: rgb(71, 71, 136);
+    color: rgb(103, 103, 196);
     outline: none;
     border: none;
     cursor: pointer;
@@ -171,7 +171,7 @@
     align-items: center;
     padding-top: 250px;
     padding-bottom: 250px;
-    background-color: rgba(48, 48, 48);
+    background-color: rgba(80, 80, 80);
     color: rgba(255, 255, 255, 0.856);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -199,9 +199,9 @@
 .footer {
     display: flex;
     justify-content: center;
-    border-top: 3px solid rgba(165, 32, 32);
+    border-top: 3px solid rgba(185, 50, 50);
     padding: 40px;
-    background-color: rgba(48, 48, 48);
+    background-color: rgba(80, 80, 80);
     color: rgba(255, 255, 255, 0.856);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -223,9 +223,10 @@
         padding-left: 10px;
         padding-right: 10px;
         font-size: 16px;
+        font-weight: bold;
     }
     .nav-bar ul li a:hover {
-        background-color: rgb(71, 71, 136);
+        background-color: rgb(103, 103, 196);
     }
     /* about me */
     .about-me {
