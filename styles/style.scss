@@ -1,0 +1,290 @@
+$Color1: rgb(185, 50, 50);
+$Color2: rgba(255, 255, 255, 0.856);
+$Color3: rgb(103, 103, 196);
+$Color4: rgb(80, 80, 80);
+
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navigation bar */
+
+.container {
+  display: flex;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $Color1;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  color: $Color2;
+  padding: 20px;
+}
+
+.nav-bar ul li a:hover {
+  background-color: $Color3;
+}
+
+/* about me */
+
+/* body */
+
+.about-me {
+  text-align: center;
+  padding-top: 270px;
+  padding-bottom: 270px;
+  background-color: $Color4;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* text */
+
+.about-me h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}
+
+.about-me p {
+  font-size: 25px;
+  color: $Color1;
+  font-style: italic;
+}
+
+.button-to-projects {
+  padding: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  margin-top: 50px;
+  background-color: $Color3;
+  color: $Color2;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* my projects */
+
+/*  body */
+
+.my-projects {
+  background-color: $Color3;
+  padding-top: 12%;
+  padding-bottom: 5%;
+  color: $Color2;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* title */
+
+.my-projects .heading {
+  padding: 20px;
+  margin-top: -150px;
+  border-bottom: 2px solid white;
+}
+
+.my-projects .heading h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+/* projects displayed */
+
+.project-holder {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.my-projects .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.project-title h1 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.site-link {
+  height: 350px;
+  max-width: 380px;
+}
+
+.projects h1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(184, 187, 187, 0.5);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: -4px;
+  margin-bottom: 30px;
+  max-width: 380px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: $Color2;
+}
+
+.button-to-contact {
+  padding: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  background-color: $Color2;
+  color: $Color3;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* contact me */
+
+/* body */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-color: $Color4;
+  color: $Color2;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* text */
+
+.contact h1 {
+  font-size: 55px;
+}
+
+.contact p {
+  margin-top: 20px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.fa-github,
+.fa-linkedin {
+  max-width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: black;
+  margin-left: 10px;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover {
+  color: white;
+  transition: ease-in 0.1s;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  border-top: 3px solid $Color1;
+  padding: 40px;
+  background-color: $Color4;
+  color: $Color2;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* mobile version */
+
+@media screen and (max-width: 600px) {
+  /* navigation bar */
+  .container {
+    max-width: 480px;
+  }
+  .nav-bar {
+    width: 100%;
+    justify-content: center;
+  }
+  .nav-bar ul li a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .nav-bar ul li a:hover {
+    background-color: $Color3;
+  }
+  /* about me */
+  .about-me {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(48, 48, 48);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .button-to-projects {
+    display: none;
+  }
+  /* my projects - title */
+  .my-projects {
+    padding-top: 10%;
+  }
+  .my-projects .heading h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 110px;
+  }
+  /* my projects - projects displayed */
+  .my-projects .projects {
+    margin-left: 0px;
+  }
+  .site-link {
+    height: 250px;
+    min-width: 280px;
+    max-width: 280px;
+    padding-right: 0px;
+  }
+  .projects h1 {
+    margin-right: 0px;
+    max-width: 280px;
+  }
+  /* contact me */
+  .contact {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .contact h1 {
+    padding-top: 50px;
+    font-size: 35px;
+  }
+  .icon-link {
+    margin-top: 20px;
+  }
+}
