@@ -1,7 +1,8 @@
-$Color1: rgb(185, 50, 50);
-$Color2: rgba(255, 255, 255, 0.856);
-$Color3: rgb(103, 103, 196);
-$Color4: rgb(80, 80, 80);
+$color1: rgb(185, 50, 50);
+$color2: rgba(255, 255, 255, 0.856);
+$color3: rgb(103, 103, 196);
+$color4: rgb(80, 80, 80);
+$primary-font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
 /* global */
 * {
@@ -16,7 +17,7 @@ $Color4: rgb(80, 80, 80);
   top: 0;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: $Color1;
+  background-color: $color1;
   width: 100%;
 }
 
@@ -34,14 +35,14 @@ $Color4: rgb(80, 80, 80);
 
 .nav-bar ul li a {
   text-decoration: none;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: $primary-font;
   font-size: 25px;
   color: $Color2;
   padding: 20px;
 }
 
 .nav-bar ul li a:hover {
-  background-color: $Color3;
+  background-color: $color3;
 }
 
 /* about me */
@@ -52,8 +53,8 @@ $Color4: rgb(80, 80, 80);
   text-align: center;
   padding-top: 270px;
   padding-bottom: 270px;
-  background-color: $Color4;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: $color4;
+  font-family: $primary-font;
 }
 
 /* text */
@@ -72,11 +73,11 @@ $Color4: rgb(80, 80, 80);
 
 .button-to-projects {
   padding: 15px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: $primary-font;
   font-size: 20px;
   margin-top: 50px;
-  background-color: $Color3;
-  color: $Color2;
+  background-color: $color3;
+  color: $color2;
   outline: none;
   border: none;
   cursor: pointer;
@@ -87,11 +88,11 @@ $Color4: rgb(80, 80, 80);
 /*  body */
 
 .my-projects {
-  background-color: $Color3;
+  background-color: $color3;
   padding-top: 12%;
   padding-bottom: 5%;
   color: $Color2;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: $primary-font;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -154,10 +155,10 @@ $Color4: rgb(80, 80, 80);
 
 .button-to-contact {
   padding: 15px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: $primary-font;
   font-size: 20px;
-  background-color: $Color2;
-  color: $Color3;
+  background-color: $color2;
+  color: $color3;
   outline: none;
   border: none;
   cursor: pointer;
@@ -174,9 +175,9 @@ $Color4: rgb(80, 80, 80);
   align-items: center;
   padding-top: 250px;
   padding-bottom: 250px;
-  background-color: $Color4;
-  color: $Color2;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: $color4;
+  color: $color2;
+  font-family: $primary-font;
 }
 
 /* text */
@@ -211,11 +212,11 @@ $Color4: rgb(80, 80, 80);
 .footer {
   display: flex;
   justify-content: center;
-  border-top: 3px solid $Color1;
+  border-top: 3px solid $color1;
   padding: 40px;
-  background-color: $Color4;
-  color: $Color2;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: $color4;
+  color: $color2;
+  font-family: $primary-font;
 }
 
 /* mobile version */
@@ -238,7 +239,7 @@ $Color4: rgb(80, 80, 80);
     font-weight: bold;
   }
   .nav-bar ul li a:hover {
-    background-color: $Color3;
+    background-color: $color3;
   }
   /* about me */
   .about-me {
