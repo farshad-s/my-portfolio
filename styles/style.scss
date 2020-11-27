@@ -51,10 +51,12 @@ $primary-font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
 .about-me {
   text-align: center;
-  padding-top: 270px;
-  padding-bottom: 270px;
-  background-color: $color4;
-  font-family: $primary-font;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  background-color: #505050;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* text */
@@ -244,9 +246,7 @@ $primary-font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   /* about me */
   .about-me {
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: rgb(48, 48, 48);
+    height: 380px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
   }
@@ -296,6 +296,11 @@ $primary-font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   /* my projects */
   /* title */
   .my-projects .heading {
-    margin-top: -80px !important;
+    margin-top: -80px;
+  }
+  /* my projects - projects displayed */
+  .site-link {
+    height: 300px;
+    max-width: 320px;
   }
 }
