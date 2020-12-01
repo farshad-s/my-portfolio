@@ -22,3 +22,11 @@ body {
 .row img {
   border: 1px rgb(219, 210, 210) solid;
 }
+
+.fa-github {
+  color: black;
+}
+
+.fa-github:hover {
+  color: rgb(141, 141, 141);
+}
