@@ -12,6 +12,7 @@ body {
 
 .heading h1 {
   font-size: 35px;
+  text-decoration: underline;
 }
 
 .row h1 {
