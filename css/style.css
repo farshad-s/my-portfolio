@@ -9,3 +9,15 @@ body {
 #intro p {
   font-size: 20px;
 }
+
+.heading h1 {
+  font-size: 35px;
+}
+
+.row h1 {
+  font-size: 30px;
+}
+
+.row img {
+  border: 1px rgb(219, 210, 210) solid;
+}
