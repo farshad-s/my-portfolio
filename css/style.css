@@ -12,7 +12,7 @@ body {
 
 .heading h1 {
   font-size: 35px;
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 .website-container h1 {
