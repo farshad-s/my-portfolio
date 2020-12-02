@@ -12,16 +12,26 @@
 </head>
 
 <body>
-  <header class="container">
-    <nav class="nav-bar">
-      <ul>
+  <div class="container">
+    <nav class="nav-wrapper">
+      <a href="#" class="sidenav-trigger" data-target="slide-out">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="hide-on-med-and-down">
         <li><a href="index-new.html">My Projects</a></li>
         <li><a href="about-me.html">About Me</a></li>
         <li><a href="contact-me.html">Contact Me</a></li>
         <li><a href="blog.html">My Ramblings</a></li>
       </ul>
     </nav>
-  </header>
+  </div>
+
+  <ul class="sidenav" id="slide-out">
+    <li><a href="index-new.html">My Projects</a></li>
+    <li><a href="about-me.html">About Me</a></li>
+    <li><a href="contact-me.html">Contact Me</a></li>
+    <li><a href="blog.html">My Ramblings</a></li>
+  </ul>
     
   <div class="row">
   <div class="center-align intro">
@@ -124,5 +134,6 @@
   </div>
   
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
