@@ -1,0 +1,38 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.intro h1 {
+  font-size: 40px;
+}
+
+.intro p {
+  font-size: 20px;
+}
+
+.heading h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.website-container h1 {
+  font-size: 30px;
+  margin-block-start: auto;
+}
+
+.website-container img {
+  border: 1px rgb(219, 210, 210) solid;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-github:hover {
+  color: rgb(141, 141, 141);
+}
+
+.fa-file-alt:hover {
+  color: rgb(141, 141, 141);
+  cursor: pointer;
+}
