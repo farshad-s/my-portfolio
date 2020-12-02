@@ -2,11 +2,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-#intro h1 {
+.intro h1 {
   font-size: 40px;
 }
 
-#intro p {
+.intro p {
   font-size: 20px;
 }
 
@@ -15,11 +15,12 @@ body {
   text-decoration: underline;
 }
 
-.row h1 {
+.website-container h1 {
   font-size: 30px;
+  margin-block-start: auto;
 }
 
-.row img {
+.website-container img {
   border: 1px rgb(219, 210, 210) solid;
 }
 
