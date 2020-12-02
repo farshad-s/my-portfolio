@@ -30,3 +30,8 @@ body {
 .fa-github:hover {
   color: rgb(141, 141, 141);
 }
+
+.fa-file-alt:hover {
+  color: rgb(141, 141, 141);
+  cursor: pointer;
+}
