@@ -21,7 +21,7 @@ body {
 }
 
 .website-container img {
-  border: 1px rgb(219, 210, 210) solid;
+  box-shadow: 5px 5px 5px 0px #888888;
 }
 
 .fa-github {
