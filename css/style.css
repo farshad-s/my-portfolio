@@ -41,4 +41,10 @@ body {
 
 .html-icon {
   color: #e44d26;
+  margin: 10px;
+}
+
+.css-icon {
+  color: #0f5298;
+  margin: 10px;
 }
