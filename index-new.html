@@ -12,32 +12,36 @@
 </head>
 
 <body>
-  <header class="container">
-    <nav class="nav-bar">
-      <ul>
-        <li><a href="index-new.html">My Projects</a></li>
-        <li><a href="about-me.html">About Me</a></li>
-        <li><a href="contact-me.html">Contact Me</a></li>
-        <li><a href="blog.html">My Ramblings</a></li>
+  <div class="row">
+    <nav class="nav-wrapper">
+      <a href="#" class="sidenav-trigger" data-target="slide-out">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="hide-on-med-and-down col s12">
+        <li><a href="index-new.html">Farshad Shafii</a></li>
+        <li class="line-divider">|</li>
+        <li><a href="about-me.html">About</a></li>
+        <li><a href="contact-me.html">Contact</a></li>
+        <li><a href="blog.html">Ramblings</a></li>
       </ul>
     </nav>
-  </header>
-    
-  <div class="row">
-  <div class="center-align intro">
-    <h1>Hey, I am Farshad</h1>
-    <p>a Junior Front-End Web Developer</p>
   </div>
-</div>
 
-  <div class="heading">
-    <h1 class="center-align">Portfolio</h1>
+  <ul class="sidenav" id="slide-out">
+    <li><a href="index-new.html">My Projects</a></li>
+    <li><a href="about-me.html">About Me</a></li>
+    <li><a href="contact-me.html">Contact Me</a></li>
+    <li><a href="blog.html">My Ramblings</a></li>
+  </ul>
+
+  <div class="row heading">
+    <h1 class="col s12">Portfolio</h1>
   </div>
   
   <div class="row website-container">
     <div class="col s12">
       <div class="col m6">
-        <h1 class="center-align">Calculator</h1>
+        <h1>Calculator</h1>
           <a target="_blank" href=https://farshad-s.github.io/Calculator class="project-link">
           <img class="responsive-img" src="styles/img/Calculator 2.png" alt="A screenshot of the website which has a basic calculator with the addition, subtraction, multiplication and division functions">
           </a>
@@ -51,7 +55,7 @@
       </div>
 
         <div class="col m6">
-          <h1 class="center-align">E-Commerce Website</h1>
+          <h1>E-Commerce Website</h1>
           <a target="_blank" href=https://farshad-s.github.io/Cake-Shop class="project-link">
           <img class="responsive-img" src="styles/img/Cake Shop 2.png" alt="A screenshot of the E-commerce website selling cakes, doughnuts, and other sweet treats">
           </a>
@@ -67,7 +71,7 @@
   <div class="row website-container">
     <div class="col s12">
       <div class="col m6">
-        <h1 class="center-align">Alarm Clock</h1>
+        <h1>Alarm Clock</h1>
           <a target="_blank" href=https://farshad-s.github.io/Alarm-Clock class="project-link">
           <img class="responsive-img" src="styles/img/Alarm Clock 2.png" alt="A screenshot of the Alarm Clock website which displays the current time and allows you to add and disable an alarm using a dropdown menu and buttons">
           </a>
@@ -79,7 +83,7 @@
       </div>
 
       <div class="col m6">
-        <h1 class="center-align">Random Color</h1>
+        <h1>Random Color</h1>
           <a target="_blank" href='https://farshad-s.github.io/change-background-hex-code' class="project-link">
           <img class="responsive-img" src="styles/img/Hex Background 2.png" alt="A screenshot of the website where the background colour is changed based on the hex code when the button is pressed">
           </a>
@@ -97,11 +101,11 @@
   <div class="row website-container">
     <div class="col s12">
       <div class="col m6">
-        <h1 class="center-align">Palindrome Checker</h1>
+        <h1>Palindrome Checker</h1>
           <a target="_blank" href=https://farshad-s.github.io/Palindrome class="project-link">
           <img class="responsive-img" src="styles/img/Palindrome 2.png" alt="A screenshot of the website which has a palindrome checker">
           </a>
-          <p class="center-align">Check whether a word is a palindrome  
+          <p class="center-align">Check whether a word is a palindrome (or see your name spelt backwards) 
             <br>Built using HTML, CSS and my favourite language, JS!
           </p>
           <div class="valign-wrapper text-space">
@@ -111,11 +115,12 @@
       </div>
 
       <div class="col m6">
-        <h1 class="center-align">Survey</h1>
+        <h1>Survey</h1>
         <a target="_blank" href="https://farshad-s.github.io/freecodecamp-form" class="project-link">
         <img class="responsive-img" src="styles/img/Survey 2.png" alt="A screenshot of the website which has a survey based on the freecodecamp survey">
         </a>
-        <p class="center-align">I built a form based on an existing form using HTML and CSS <br></p>
+        <p class="center-align">I built a form using HTML and CSS based on an existing form<br>
+        No need to fill it out!</p>
         <div class="valign-wrapper">
           <a target="_blank" href="https://github.com/farshad-s/freecodecamp-form"><i class="fab fa-github fa-2x"></i></a>
           <p class="col s12">Github Repo</p>
@@ -124,5 +129,6 @@
   </div>
   
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

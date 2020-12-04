@@ -17,23 +17,85 @@
       rel="stylesheet"
       href="node_modules/materialize-social/materialize-social.css"
     />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="styles/all.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Farshad's Portfolio</title>
   </head>
 
   <body>
-    <header class="container">
-      <nav class="nav-bar">
-        <ul>
-          <li><a href="index-new.html">My Projects</a></li>
-          <li><a href="about-me.html">About Me</a></li>
-          <li><a href="contact-me.html">Contact Me</a></li>
-          <li><a href="blog.html">My Ramblings</a></li>
+    <div class="row">
+      <nav class="nav-wrapper">
+        <a href="#" class="sidenav-trigger" data-target="slide-out">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="hide-on-med-and-down col s12">
+          <li><a href="index-new.html">Farshad Shafii</a></li>
+          <li class="line-divider">|</li>
+          <li><a href="about-me.html">About</a></li>
+          <li><a href="contact-me.html">Contact</a></li>
+          <li><a href="blog.html">Ramblings</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+
+    <ul class="sidenav" id="slide-out">
+      <li><a href="index-new.html">My Projects</a></li>
+      <li><a href="about-me.html">About Me</a></li>
+      <li><a href="contact-me.html">Contact Me</a></li>
+      <li><a href="blog.html">My Ramblings</a></li>
+    </ul>
+
+    <div class="container">
+      <h6>
+        With a passion for code and a desire to learn, implement, and deliver, I
+        set out on a journey...
+      </h6>
+
+      <div class="valign-wrapper">
+        <h5>I began by learning a hypertext language</h5>
+        <i class="fab fa-html5 fa-3x html-icon"></i>
+      </div>
+
+      <div class="valign-wrapper">
+        <h5>Then navigated my way to a cascade</h5>
+        <i class="fab fa-css3-alt fa-3x css-icon"></i>
+      </div>
+
+      <div class="valign-wrapper">
+        <h5>
+          Picking up
+          <span
+            class="iconify"
+            data-icon="logos-materializecss"
+            data-inline="false"
+          ></span>
+          along the way
+        </h5>
+      </div>
+
+      <div class="valign-wrapper">
+        <h5>I traversed through the vast array of</h5>
+        <i class="fab fa-js-square fa-3x js-icon"></i>
+      </div>
+
+      <div class="valign-wrapper">
+        <h5>and made sure I knew how to react</h5>
+        <i class="fab fa-react fa-3x react-icon"></i>
+      </div>
+
+      <div>
+        <h6>I also learnt many things to aid me on this journey including:</h6>
+        <ul>
+          <li>Responsive Web Design</li>
+          <li>Git</li>
+          <li>JIRA/Trello</li>
+          <li>Agile Methodology</li>
+        </ul>
+      </div>
+    </div>
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

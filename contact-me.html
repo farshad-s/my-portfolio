@@ -23,17 +23,29 @@
   </head>
 
   <body>
-    <header class="container">
-      <nav class="nav-bar">
-        <ul>
-          <li><a href="index-new.html">My Projects</a></li>
-          <li><a href="about-me.html">About Me</a></li>
-          <li><a href="contact-me.html">Contact Me</a></li>
-          <li><a href="blog.html">My Ramblings</a></li>
+    <div class="row">
+      <nav class="nav-wrapper">
+        <a href="#" class="sidenav-trigger" data-target="slide-out">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="hide-on-med-and-down col s12">
+          <li><a href="index-new.html">Farshad Shafii</a></li>
+          <li class="line-divider">|</li>
+          <li><a href="about-me.html">About</a></li>
+          <li><a href="contact-me.html">Contact</a></li>
+          <li><a href="blog.html">Ramblings</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+
+    <ul class="sidenav" id="slide-out">
+      <li><a href="index-new.html">My Projects</a></li>
+      <li><a href="about-me.html">About Me</a></li>
+      <li><a href="contact-me.html">Contact Me</a></li>
+      <li><a href="blog.html">My Ramblings</a></li>
+    </ul>
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
