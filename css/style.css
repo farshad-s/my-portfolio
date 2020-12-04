@@ -1,6 +1,36 @@
+/* global */
+
 body {
   font-family: "Open Sans", sans-serif;
+  color: rgb(66, 66, 66);
 }
+
+/* all pages */
+
+/* nav-bar */
+
+.nav-wrapper {
+  background-color: white;
+  box-shadow: none;
+}
+
+.nav-wrapper ul a {
+  color: rgb(66, 66, 66);
+}
+
+.nav-wrapper ul a:hover {
+  background-color: white;
+}
+
+nav,
+nav .nav-wrapper i,
+nav a.sidenav-trigger,
+nav a.sidenav-trigger i {
+  height: 90px;
+  line-height: 90px;
+}
+
+/* portfolio */
 
 .intro h1 {
   font-size: 40px;
@@ -35,4 +65,26 @@ body {
 .fa-file-alt:hover {
   color: rgb(141, 141, 141);
   cursor: pointer;
+}
+
+/* about-me */
+
+.html-icon {
+  color: #e44d26;
+  margin: 10px;
+}
+
+.css-icon {
+  color: #0f5298;
+  margin: 10px;
+}
+
+.js-icon {
+  color: #f0db4f;
+  margin: 10px;
+}
+
+.react-icon {
+  color: #61dbfb;
+  margin: 10px;
 }
