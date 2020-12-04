@@ -31,6 +31,10 @@ nav a.sidenav-trigger i {
   line-height: 90px;
 }
 
+.sidenav-trigger {
+  color: teal;
+}
+
 /* portfolio */
 
 .heading h1 {
