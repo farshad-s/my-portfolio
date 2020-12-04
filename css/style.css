@@ -57,7 +57,7 @@ nav a.sidenav-trigger i {
 }
 
 .fa-github:hover {
-  color: rgb(141, 141, 141);
+  color: rgb(88, 88, 88);
 }
 
 .fa-file-alt:hover {
@@ -93,4 +93,14 @@ nav a.sidenav-trigger i {
 
 .bold {
   font-weight: bold;
+}
+
+/* contact me */
+
+.fa-linkedin {
+  color: #006192;
+}
+
+.fa-linkedin:hover {
+  color: #0091df;
 }
