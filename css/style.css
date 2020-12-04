@@ -14,7 +14,8 @@ body {
   box-shadow: none;
 }
 
-.nav-wrapper ul a {
+.nav-wrapper ul a,
+.line-divider {
   color: rgb(66, 66, 66);
   text-transform: uppercase;
   letter-spacing: 0.15em;
