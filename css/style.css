@@ -16,6 +16,8 @@ body {
 
 .nav-wrapper ul a {
   color: rgb(66, 66, 66);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
 .nav-wrapper ul a:hover {
