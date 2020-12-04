@@ -35,17 +35,10 @@ nav a.sidenav-trigger i {
 
 /* portfolio */
 
-.intro h1 {
-  font-size: 40px;
-}
-
-.intro p {
-  font-size: 20px;
-}
-
 .heading h1 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
+  padding-left: 20px !important;
 }
 
 .website-container h1 {
