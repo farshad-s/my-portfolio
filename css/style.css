@@ -5,9 +5,7 @@ body {
   color: rgb(66, 66, 66);
 }
 
-/* all pages */
-
-/* nav-bar */
+/* all-pages nav-bar */
 
 .nav-wrapper {
   background-color: white;
@@ -83,4 +81,12 @@ nav a.sidenav-trigger i {
 .react-icon {
   color: #61dbfb;
   margin: 10px;
+}
+
+.aspirations {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
 }
