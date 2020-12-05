@@ -14,7 +14,9 @@ Click on the github icon below the project image to be taken to the repo.
 
 ## About Me
 
-Working on it
+The about me section describes my current journey on learning web development.
+
+I also describe my aspirations and what I hope to achieve in the near and distant future.
 
 ## Contact Me
 
