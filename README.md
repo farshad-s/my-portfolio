@@ -20,7 +20,9 @@ I also describe my aspirations and what I hope to achieve in the near and distan
 
 ## Contact Me
 
-Working on it
+I have placed the link to my LinkedIn page in order to connect with me and contact me.
+
+I have placed the link to my github page so you can take a closer look at my projects and code, including ones I don't have on my portfolio section.
 
 ## My Ramblings (Blog)
 
