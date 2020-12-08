@@ -17,6 +17,7 @@ body {
   color: rgb(66, 66, 66);
   text-transform: uppercase;
   letter-spacing: 0.15em;
+  display: initial;
 }
 
 .nav-wrapper ul a:hover {
@@ -44,7 +45,10 @@ nav a.sidenav-trigger i {
 .nav-wrapper .current-page a {
   border-bottom: teal 2px solid;
   padding-bottom: 10px;
-  display: initial;
+}
+
+.nav-wrapper .not-current-page a:hover {
+  color: teal;
 }
 
 /* portfolio */
