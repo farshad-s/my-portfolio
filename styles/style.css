@@ -105,3 +105,11 @@ nav a.sidenav-trigger i {
 .fa-linkedin:hover {
   color: #0091df;
 }
+
+.fa-github {
+  color: black;
+}
+
+.fa-github:hover {
+  color: rgb(88, 88, 88);
+}
