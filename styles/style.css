@@ -106,10 +106,10 @@ nav a.sidenav-trigger i {
   color: #0091df;
 }
 
-.fa-github {
+.github-icon {
   color: black;
 }
 
-.fa-github:hover {
+.github-icon:hover {
   color: rgb(88, 88, 88);
 }
