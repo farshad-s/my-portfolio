@@ -35,6 +35,12 @@ nav a.sidenav-trigger i {
   color: teal;
 }
 
+.nav-wrapper .my-name a {
+  color: teal;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 /* portfolio */
 
 .heading h1 {
