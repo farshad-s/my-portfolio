@@ -58,11 +58,11 @@ nav a.sidenav-trigger i {
   box-shadow: 5px 5px 5px 0px #888888;
 }
 
-.fa-github {
+.repo-link {
   color: black;
 }
 
-.fa-github:hover {
+.repo-link:hover {
   color: rgb(88, 88, 88);
 }
 
