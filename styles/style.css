@@ -41,6 +41,12 @@ nav a.sidenav-trigger i {
   font-size: 20px;
 }
 
+.nav-wrapper .current-page a {
+  border-bottom: teal 2px solid;
+  padding-bottom: 10px;
+  display: initial;
+}
+
 /* portfolio */
 
 .heading h1 {
