@@ -88,6 +88,15 @@ nav a.sidenav-trigger i {
   margin: 10px;
 }
 
+.scss-icon {
+  color: #cc6699;
+}
+
+.bootstrap-icon {
+  margin-left: 10px;
+  color: #080135;
+}
+
 .js-icon {
   color: #f0db4f;
   margin: 10px;
