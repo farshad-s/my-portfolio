@@ -64,10 +64,6 @@ nav a.sidenav-trigger i {
   margin-block-start: auto;
 }
 
-.website-container img {
-  box-shadow: 5px 5px 5px 0px #888888;
-}
-
 .repo-link {
   color: black;
 }
